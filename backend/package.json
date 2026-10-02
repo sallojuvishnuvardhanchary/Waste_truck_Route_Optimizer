@@ -1,0 +1,17 @@
+{
+  "name": "smart-garbage-route-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Smart City Garbage Collection Route Optimization System (DAA Project)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["tsp", "daa", "branch-and-bound", "brute-force", "route-optimization"],
+  "author": "DAA Student Project Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
